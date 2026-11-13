@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Your Profile | The Personal Edit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="form-page">
+
+        <section class="form-heading">
+            <h1>
+                Tell us a little<br>
+                <em>about yourself.</em>
+            </h1>
+        </section>
+
+        <form class="profile-form"
+              action="submit-profile"
+              method="post">
+
+            <div class="form-grid">
+
+                <div class="form-field">
+                    <label for="name">Full Name <span>*</span></label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="studentId">Student ID <span>*</span></label>
+                    <input type="text" id="studentId" name="studentId" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="programme">Programme <span>*</span></label>
+                    <input type="text" id="programme" name="programme" required>
+                </div>
+
+                <div class="form-field">
+                    <label for="email">Email Address <span>*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-field full-width">
+                    <label for="hobbies">Hobbies <span>*</span></label>
+                    <input type="text" id="hobbies" name="hobbies" required>
+
+                </div>
+
+                <div class="form-field full-width">
+                    <label for="introduction">
+                        Short Self-Introduction <span>*</span>
+                    </label>
+
+                    <textarea id="introduction"
+                              name="introduction"
+                              rows="5"
+                              required></textarea>
+                </div>
+
+            </div>
+
+            <div class="form-actions">
+
+                <a href="index.html" class="button-primary">
+                    ← Back to home
+                </a>
+
+                <button type="submit" class="button-primary">
+                    Submit my profile <span>→</span>
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
