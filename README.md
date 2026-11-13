@@ -1,6 +1,6 @@
 Name: Hanis Farwizah binti Jaafar
 No matrics: 2026130899
-Group: CS230B
+Group: CS2304C
 
 1. Project Description
    The Personal Profile Web Application is a a web-based application developed to allow users to create and submit their personal profiles through an online form.
